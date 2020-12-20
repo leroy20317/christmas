@@ -17,6 +17,11 @@
 
   function init() {
     box.addEventListener('click', runAnimation);
+    box.addEventListener('click', showStreamer);
+  }
+
+  function showStreamer() {
+    document.querySelector('.streamer').classList.add('show');
   }
 
   function runAnimation() {

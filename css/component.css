@@ -1200,3 +1200,18 @@ h1 span {
     stroke-width: 3;
   }
 }
+
+.streamer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility, opacity 1s 5s;
+}
+
+.streamer.show {
+  opacity: 1;
+  visibility: visible;
+}
