@@ -17,7 +17,6 @@
 
   function init() {
     box.addEventListener('click', runAnimation);
-    box.addEventListener('click', showStreamer);
   }
 
   function showStreamer() {
